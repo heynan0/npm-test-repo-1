@@ -1,6 +1,6 @@
 {
-  "name": "npm-test-repo-1",
-  "version": "1.0.0",
+  "name": "npm-test-repo-3",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heynan0/npm-test-repo-1.git"
+    "url": "git+https://github.com/heynan0/npm-test-repo-3.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heynan0/npm-test-repo-1/issues"
+    "url": "https://github.com/heynan0/npm-test-repo-3/issues"
   },
-  "homepage": "https://github.com/heynan0/npm-test-repo-1#readme"
+  "homepage": "https://github.com/heynan0/npm-test-repo-3#readme",
+  "dependencies": {
+    "npm-test-repo-2": "1.0.0"
+  }
 }
